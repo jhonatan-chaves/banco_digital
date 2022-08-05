@@ -2,6 +2,8 @@ package sistemabancosimples;
 
 import java.util.Scanner;
 
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+
 public class CaixaEletronico {
 	public static void main(String[] args) {
 		
@@ -25,6 +27,7 @@ public class CaixaEletronico {
 		
 		conta.deposito(150);
 		conta.saque(100);
+		System.out.println("vegeta");
 	}
 
 }
